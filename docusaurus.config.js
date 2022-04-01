@@ -9,30 +9,25 @@ const TwitterSvg =
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Boilerplate',
-  tagline: 'Dinosaurs are cool',
-  url: 'http://docusaurus-boilerplate.vercel.app',
+  title: 'Newton docs',
+  tagline: 'newton',
+  url: 'https://docs.newtonproject.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'arisac', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-boilerplate', // Usually your repo name.
+  favicon: 'img/favicon.png',
+  organizationName: 'newtonproject', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr'],
+    locales: ['en', 'zh'],
     localeConfigs: {
       en: {
         label: 'English',
         direction: 'ltr',
         htmlLang: 'en-US',
-      },
-      fr: {
-        label: 'Français',
-        direction: 'ltr',
-        htmlLang: 'fr-FR',
-      },
+      }
     },
   },
 
@@ -60,7 +55,7 @@ const config = {
       indexPages: true,
 
       // language of your documentation, see next section
-      language: ["en", "fr"],
+      language: ["en", "zh"],
 
       // setting this to "none" will prevent the default CSS to be included. The default CSS
       // comes from autocomplete-theme-classic, which you can read more about here:
@@ -108,7 +103,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/arisac/docusaurus-boilerplate/edit/main/',
+          editUrl: 'https://github.com/newtonproject/docs/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
@@ -120,7 +115,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/arisac/docusaurus-boilerplate/edit/main/blog/',
+            'https://github.com/newtonproject/docs/edit/main/blog/',
           blogSidebarCount: 10,
         },
         theme: {
@@ -140,25 +135,26 @@ const config = {
     ({
       navbar: {
         hideOnScroll: false,
-        title: 'Docusaurus Boilerplate',
+        title: 'Newton Docs',
         logo: {
-          alt: 'Docusaurus Logo',
-          src: 'img/logo.svg',
+          alt: 'Newton Logo',
+          src: 'img/favicon.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'start',
+            docId: 'intro',
             position: 'left',
             label: 'Let\'s Start',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: 'https://newtonproject.org', label: 'Newton Project', position: 'right' },
           {
             type: 'localeDropdown',
             position: 'right',
           },
           {
-            href: 'https://github.com/arisac/docusaurus-boilerplate',
+            href: 'https://github.com/newtonproject/docs',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
@@ -174,23 +170,19 @@ const config = {
               {
                 label: 'Let\'s Start',
                 to: '/',
-              },
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Newton Project',
+                href: 'https://newtonproject.org',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/newton_project',
               },
             ],
           },
@@ -203,12 +195,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/newtonproject/docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Docusaurus Boilerplate. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Newton Project. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -222,7 +214,7 @@ const config = {
       hideableSidebar: true,
       announcementBar: {
         id: 'announcementBar-0', // Increment on change
-        content: `⭐️ If you like this Docusaurus Boilerplate, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/arisac/docusaurus-boilerplate">GitHub</a> and follow me on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/arisdotac" >${TwitterSvg} Twitter</a>`,
+        content: `⭐️ Welcome to <a target="_blank" rel="noopener noreferrer" href="https://newtonproject.org">Newton Project</a>.`,
         isCloseable: true,
       },
     }),
