@@ -1,4 +1,4 @@
-# Docusaurus Boilerplate
+# Newton Docs
 
 This is a **pre-configured Docusaurus starter template** for i18n docs & posts using Docusaurus `v2.0.0-beta.18`, Typescript, Sass, Local Search etc.
 
