@@ -3,12 +3,12 @@ sidebar_position: 1
 slug: /
 ---
 
-# What is Newton?
+# 什么是牛顿?
 
-## Introduction
+## 介绍
 
-[Newton](https://newtonproject.org) is an open-source platform for launching decentralized applications(DApp) and infrastructure for the community economy.
+[牛顿](https://newtonproject.org)是一个开源的平台，用于启动去中心化的应用程序（DApp）和社区经济的基础设施。
 
 ## NEW
 
-NEW is the native token of Newton Project. It’s a hard-capped, scarce asset that is used to pay for fees, secure the platform through staking, and provide a basic unit of account between the multiple subnets created on Newton. `1 NEW` is equal to `1000000000000000000 ISAAC`.
+NEW是Newton通证的符号。在牛顿社群经济体生态中，NEW是价值和权益的超级载体，具有全球流动性、数字化、加密、去中心化等特征。
