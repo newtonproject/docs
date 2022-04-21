@@ -1,10 +1,23 @@
-# Newton 101
+---
+title: Newton 101
+sidebar_label: newchain
+keywords:
+  - docs
+  - newton
+---
 
-## 牛顿项目是什么？
+## What is Newton Project？
 
-牛顿致力于打造社群经济基础设施，通过提供治理、协作和激励等服务，将公司经济升级为“人人贡献、人人受益”的全新社群经济。牛顿团队分布于全球，囊括来自不同国家的技术专家、电商创业者等行业精英，在技术、电子商务、运营等领域具有丰富经验。牛顿拥有全栈式技术架构，包括底层公链NewChain（已于2018年12月18上线，采用 “主链+子链”设计和POA共识机制，TPS稳定在5000以上，扩展性强，可支撑各类商业场景）、分布式存储NewNet以及上链的NewIOT（涵盖十多种传感器）等基础技术。在基础技术层之上，搭建有超级交换协议（HEP），包含：数字身份与信用、供应链、数字营销、交易和支付、可信物理通道、自金融和NNIO，以支撑具备实际商业价值的DApp，比如NewMall。
 
-## NewChain是什么？
+Newton Project aims to build infrastructure for community-based economy, and through the provision of services around governance, collaboration and incentives, Newton upgrades corporate economy to a brand new community-based economy that benefits everyone who contributes.
+
+The Newton team is distributed all over the world and is made up of technical experts from different countries, e-commerce entrepreneurs and other industry elites.
+Newton has a full-stack technology architecture, including the underlying public chain New Chain (mainnet launched in December 18, 2018, with a “Main chain + sub chain”structure and POA consensus mechanism, TPS over 5000 and is scalable enough for various business applications), distributed storage service New Net and New IOT (covering more than a dozen sensors). Above basic technology layer, Newton has a Hyper Exchange Protocol, which includes digital identity and credit, supply chain, digital marketing, transactions and payments, trusted physical channels, self-finance and NNIO, etc.to support DApps with real business value, such as New Mall.
+The first application running on Newton is New Mall, which is an on-line chain retailer that combines blockchain technology with e-commerce, through Newton, huge commercial intermediaries will be eliminated and consumers and other contributors will benefit. In addition to the retail industry, Newton is also committed to foster real applications in agriculture, supply chain, self-finance, payment, public welfare, games and other fields.
+
+Besides, Newton currently has a global and diverse community distributed over 89 countries. Newton has established 32 overseas telegraph groups covering more than 170,000 people. Community is the foundation for the Newton community-based economy.
+
+## What is NewChain?
 
 NewChain is a scaling solution for public blockchains. It's the world's programmable blockchain.
 
@@ -13,6 +26,6 @@ NewChain is based on Official golang implementation of the Ethereum protocol. Ne
 - In order to support higher GasPrice settings, modify some of the limiting parameters, including maxPrice and SuggestPrice
 - The consensus algorithm uses PoA, and the block interval is 3 seconds
 
-## 什么是NEW？
+## What is NEW？
 
-NEW是Newton通证的符号，NEW也是NewChain上的原生币。在牛顿社群经济体生态中，NEW是价值和权益的超级载体，具有全球流动性、数字化、加密、去中心化等特征。
+NEW is the symbol of the Newton token. In the ecology of the Newton community economy, NEW is a super carrier of value and rights, with characteristics of easy circulation, digitization, encryption, and decentralization.

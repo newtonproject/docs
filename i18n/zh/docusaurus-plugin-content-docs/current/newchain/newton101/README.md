@@ -1,4 +1,10 @@
-# 了解牛顿项目
+---
+title: 了解牛顿项目
+sidebar_label: newchain
+keywords:
+  - docs
+  - newton
+---
 
 ## 牛顿项目是什么？
 
