@@ -1,7 +1,7 @@
 ---
 id: transactions
 title: 什么是交易?
-sidebar_label: Transactions
+sidebar_label: 交易
 sidebar_position: 6
 description: Build your next blockchain app on Newton.
 keywords:
