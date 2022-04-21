@@ -63,6 +63,32 @@ function HeroBanner() {
   );
 }
 
+function VideoContainer() {
+  return (
+    <div className="container text--center margin-bottom--xl">
+      <div className="row">
+        <div className="col">
+          <h2>
+            <Translate>Check it out in the intro video</Translate>
+          </h2>
+          <div className="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.newtonproject.org/filestorage/uploads/newton-introduction.mp4"
+              title="Newton Introduction"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Home(): JSX.Element {
   const {
     siteConfig: {customFields, tagline},
@@ -81,6 +107,9 @@ export default function Home(): JSX.Element {
           </div>
         </div>
         <HeroBanner />
+        <div className={styles.section}>
+          <VideoContainer />
+        </div>
       </main>
     </Layout>
   );
