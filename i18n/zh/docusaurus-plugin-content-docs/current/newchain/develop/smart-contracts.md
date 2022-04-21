@@ -9,11 +9,11 @@ sidebar: true
 
 A "smart contract" is simply a program that runs on the Newton or Ethereum blockchain. It's a collection of code (its functions) and data (its state) that resides at a specific address on the Newton or Ethereum blockchain.
 
-Smart contracts are a type of [NewChain account](/blockchain-basics/accounts). This means they have a balance and they can send transactions over the network. However they're not controlled by a user, instead they are deployed to the network and run as programmed. User accounts can then interact with a smart contract by submitting transactions that execute a function defined on the smart contract. Smart contracts can define rules, like a regular contract, and automatically enforce them via the code. Smart contracts can not be deleted by default, and interactions with them are irreversible.
+Smart contracts are a type of [NewChain account](../../blockchain-basics/accounts). This means they have a balance and they can send transactions over the network. However they're not controlled by a user, instead they are deployed to the network and run as programmed. User accounts can then interact with a smart contract by submitting transactions that execute a function defined on the smart contract. Smart contracts can define rules, like a regular contract, and automatically enforce them via the code. Smart contracts can not be deleted by default, and interactions with them are irreversible.
 
 ## Prerequisites {#prerequisites}
 
-Make sure you've read up on [accounts](/blockchain-basics/accounts), [transactions](/blockchain-basics/transactions) and the Ethereum virtual machine before jumping into the world of smart contracts.
+Make sure you've read up on [accounts](../../blockchain-basics/accounts), [transactions](../../blockchain-basics/transactions) and the Ethereum virtual machine before jumping into the world of smart contracts.
 
 <!-- TODO simpler example... scheduling payments in Ethereum is actually difficult -->
 <!-- TODO show an example smart contract, e.g. an implementation of a vending machine -->
@@ -69,7 +69,7 @@ Like how a vending machine removes the need for a vendor employee, smart contrac
 
 ## Permissionless {#permissionless}
 
-Anyone can write a smart contract and deploy it to the network. You just need to learn how to code in a [smart contract language](https://solidity.readthedocs.io/), and have enough ETH to deploy your contract. Deploying a smart contract is technically a transaction, so you need to pay your [Gas](/blockchain-basics/gas) in the same way that you need to pay gas for a simple ETH transfer. Gas costs for contract deployment are far higher, however.
+Anyone can write a smart contract and deploy it to the network. You just need to learn how to code in a [smart contract language](https://solidity.readthedocs.io/), and have enough ETH to deploy your contract. Deploying a smart contract is technically a transaction, so you need to pay your [Gas](../../blockchain-basics/gas) in the same way that you need to pay gas for a simple ETH transfer. Gas costs for contract deployment are far higher, however.
 
 Newton has developer-friendly languages for writing smart contracts:
 
