@@ -1,6 +1,7 @@
 ---
 id: consensus-mechanism
 title: Consensus Mechanism
+sidebar_position: 3
 description: Build your next blockchain app on Newton.
 keywords:
   - docs
@@ -17,14 +18,17 @@ Proof of work describes a system that requires a not-insignificant but feasible 
 2. PoS: Proof of Stake <br></br>
 Proof-of-Stake mechanism achieve consensus by requiring users to stake an amount of their tokens so as to have a chance of being selected to validate blocks of transactions, and get rewarded for doing so. Priority is given to miners who have purchased the most stake in the blockchain system.
 
+3. PoA： Proof of Authority <br></br>
 
-3. DPoS: Delegated Proof of Stake <br></br>
+Proof of Authority (PoA) is a reputation-based consensus algorithm that introduces a practical and efficient solution for blockchain networks (especially the private ones).
+
+4. DPoS: Delegated Proof of Stake <br></br>
 This form of consensus mirrors the election of members in governing bodies. Witnesses, those who validate transactions, are elected.
 
-4. PoSpace: Proof of Space <br></br>
+5. PoSpace: Proof of Space <br></br>
 This kind of consensus mechanism is useful in decentralized file storage applications like storj.io, filecoin, where nodes prove they have legitimate capacity in their hardware. Sometimes also referred as PoStorage or PoCapacity.
 
-5. PoET: Proof of Elapsed Time <br></br>
+6. PoET: Proof of Elapsed Time <br></br>
 A better alternative to PoW, consuming lesser computational resources. Each participating node needs to wait for a random amount of time and very first node to wake up from sleep gets a chance to create new block, which is then propagated through network. Requires Trusted Execution Environments ( TEE ) like Intel SGX, which are isolated part of memory, can only be accessed using certain set of instructions.
 
 ### **:scroll:Resources**

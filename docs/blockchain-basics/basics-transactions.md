@@ -2,6 +2,7 @@
 id: transactions
 title: What are Transactions?
 sidebar_label: Transactions
+sidebar_position: 6
 description: Build your next blockchain app on Newton.
 keywords:
   - docs

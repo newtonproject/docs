@@ -2,6 +2,7 @@
 id: blockchain
 title: What is Blockchain?
 sidebar_label: Blockchain
+sidebar_position: 1
 description: Build your next blockchain app on Newton.
 keywords:
   - docs

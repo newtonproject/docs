@@ -18,6 +18,6 @@ keywords:
     - [solidity](https://docs.soliditylang.org/en/v0.8.0/)
     - 存储
 - 共识（节点加入）
-  - [共识机制介绍](newton101/blockchain-basics/basics-consensus-mechanism.md)  
+  - [共识机制介绍](/blockchain-basics/basics-consensus-mechanism.md)  
   - [NewChain节点部署指南](https://github.com/newtonproject/newchain-nodes)
   - [治理与NEP](https://neps.newtonproject.org/)

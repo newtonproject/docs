@@ -2,6 +2,7 @@
 id: gas
 title: What is Gas?
 sidebar_label: Gas
+sidebar_position: 7
 description: Build your next blockchain app on Newton.
 keywords:
   - docs

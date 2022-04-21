@@ -2,6 +2,7 @@
 id: accounts
 title: What are Accounts?
 sidebar_label: Accounts
+sidebar_position: 8
 description: Build your next blockchain app on Newton.
 keywords:
   - docs

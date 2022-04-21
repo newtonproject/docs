@@ -2,6 +2,7 @@
 id: solidity
 title: What is Solidity?
 sidebar_label: Solidity
+sidebar_position: 5
 description: Build your next blockchain app on Newton.
 keywords:
   - docs
