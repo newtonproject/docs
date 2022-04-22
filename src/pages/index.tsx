@@ -75,7 +75,7 @@ function VideoContainer() {
             <iframe
               width="560"
               height="315"
-              src="https://www.newtonproject.org/filestorage/uploads/newton-introduction.mp4"
+              src="https://www.youtube.com/embed/FXs8gM_YKEg"
               title="Newton Introduction"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
