@@ -12,7 +12,7 @@ keywords:
     - https://www.newtonproject.org/
 2. Official browser
     - Mainnet: https://explorer.newtonproject.org/
-    - TestNet: https://explorer.testnet.newtonproject.org/
+    - TestNet: https://blockscout.testnet.newtonproject.org/
 3. Github：
     - https://github.com/newtonproject
 
