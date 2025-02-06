@@ -12,7 +12,7 @@ keywords:
     - https://www.newtonproject.org/
 2. 官方浏览器地址
     - 主网： https://explorer.newtonproject.org/
-    - 测试网： https://explorer.testnet.newtonproject.org/
+    - 测试网： https://blockscout.testnet.newtonproject.org/
 3. 相关源码逐步开放中，请关注：
     - https://github.com/newtonproject
 
